@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	b, err := ioutil.ReadFile("image.png")
+	b, err := ioutil.ReadFile("img/image.png")
 	if err != nil {
 		panic(err)
 	}
